@@ -1,0 +1,69 @@
+/* Header.css */
+
+.Header {
+    top: 0;
+    width: 100%;
+    position: fixed;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 1.2em;
+    transition: ease-in-out 0.5s;
+}
+
+.Header:hover {
+    background-color: rgba(218, 217, 217, 0.5);
+}
+
+.toggle-button {
+    background: none;
+    border: none;
+    color: #333;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 40px;
+}
+
+.toggle-button:hover {
+    color: #f39c12;
+}
+
+/* 
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #f39c12;
+} */
+
+@media (max-width: 768px) {
+    .toggle-button {
+        font-size: 2rem;
+    }
+}
